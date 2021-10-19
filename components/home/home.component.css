@@ -1,0 +1,36 @@
+.home {
+  margin-top: 3%;
+  margin-left: 600px;
+  display: block;
+}
+.text {
+  position: fixed;
+  font-size: larger;
+  bottom: 30%;
+  text-align: center;
+
+  margin-left: 730px;
+}
+.mat-toolbar.mat-primary {
+  background: rgb(220, 239, 243);
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.mat-toolbar.mat-elevation-z0 {
+  height: 1px;
+  border-radius: 20px;
+}
+.custom.mat-card-image {
+  margin-bottom: 5px;
+  width: 50px;
+  margin-right: 0px;
+}
+.button.mat-icon-button {
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(65, 65, 150);
+}
+.mat-select {
+  margin-left: 10px;
+}

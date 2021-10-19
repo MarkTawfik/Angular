@@ -1,0 +1,31 @@
+.toolbar {
+  background-color: #1474be;
+}
+.mat-toolbar.mat-primary {
+  background: #1474be;
+  margin-left: 5px;
+  color: #fff;
+  height: 10px;
+}
+.mat-toolbar.mat-elevation-z0 {
+  height: 1px;
+  border-radius: 10px;
+}
+.dropdown {
+  background-color: #1474be;
+  border-color: #1474be;
+  margin-left: 1%;
+}
+
+.Footer {
+  margin-left: 5px;
+  position: fixed;
+  bottom: 0%;
+  background-color: #1474be;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  color: azure;
+  border-radius: 10px;
+  height: 35px;
+}

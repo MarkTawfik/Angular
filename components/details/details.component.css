@@ -1,0 +1,157 @@
+.text.mat-card-content {
+  margin-left: 1%;
+  font-weight: 600;
+  color: black;
+  height: 28px;
+  background-color: rgb(222, 238, 247);
+}
+.custom.mat-card {
+  background-color: rgb(245, 246, 248);
+  height: 545px;
+  width: 1525px;
+
+  border-radius: 10px;
+}
+.d-block.my {
+  margin-left: 500px;
+}
+.icon1 {
+  background-color: rgb(34, 233, 233);
+  border-radius: 50px;
+  margin-left: 60px;
+}
+.star {
+  color: red;
+  margin-left: 2px;
+}
+.content {
+  margin-left: 0%;
+  font-weight: 200;
+  color: black;
+  height: 28px;
+  background-color: rgb(212, 234, 247);
+  border-radius: 5px;
+}
+
+.bar {
+  margin-left: 50px;
+  font-size: 15px;
+  font-weight: 590;
+  margin-top: 0px;
+}
+.bar1 {
+  margin-left: 350px;
+  font-size: 15px;
+  font-weight: 590;
+  margin-top: 0px;
+}
+.search1 {
+  margin-left: 70px;
+
+  border-radius: 5px;
+  width: 325px;
+  height: 20px;
+  background-color: rgb(254, 255, 255);
+  border-color: rgb(133, 136, 138);
+}
+
+.icon2 {
+  color: rgb(34, 233, 233);
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+.img {
+  border-radius: 20px;
+}
+.line {
+  color: black;
+  margin-left: 10px;
+}
+
+.tool {
+  margin-bottom: 100px;
+  background-color: white;
+}
+.custom-select {
+  background-color: rgb(245, 246, 248);
+  height: 30px;
+  margin-left: 0px;
+  width: 300px;
+
+  border-radius: 5px;
+}
+.word {
+  color: rgb(65, 65, 150);
+  margin-left: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.example-margin {
+  margin-left: 200px;
+  font-size: small;
+  padding: 5px;
+  color: rgb(65, 65, 150);
+}
+.word1 {
+  color: rgb(65, 65, 150);
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.radio {
+  margin-left: 15px;
+  padding: 10px;
+  color: black;
+  font-size: small;
+}
+.button {
+  margin-left: 150px;
+}
+.btn.btn-primary {
+  margin-left: 270px;
+  width: 100px;
+  height: 33px;
+  padding: 5px;
+}
+
+.info {
+  margin-left: 12px;
+  margin-bottom: 10px;
+  color: rgb(3, 3, 126);
+  font-weight: 500;
+  font-size: large;
+  font-style: bold;
+}
+
+.mat-grid-tile {
+  background: rgb(253, 255, 255);
+  margin-left: 0px;
+}
+
+.word3 {
+  margin-left: 485px;
+  font-weight: 590;
+}
+.footer {
+  background-color: rgb(233, 230, 230);
+}
+
+.label1 {
+  margin-left: 350px;
+}
+.label {
+  margin-left: 50px;
+}
+.quantity {
+  background-color: rgb(241, 242, 243);
+  display: flex;
+}
+.quantity input {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: center;
+  background-color: rgb(34, 233, 233);
+}

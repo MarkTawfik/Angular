@@ -1,0 +1,142 @@
+
+<!--Product Page-->
+<mat-card-content class="text">
+  <h2 routerLink="/product">Product</h2>
+</mat-card-content>
+<!--First Title-->
+<div class="container">
+  <mat-card-title>
+    <mat-icon class="icon1">filter</mat-icon>
+    <span class="info">Basic Information</span>
+  </mat-card-title>
+  <hr class="line" />
+
+  <div>
+    <div class="row custom-wrapper">
+      <div class="col">
+        <!-- Form starts -->
+        <!--Warehouse Form-->
+        <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+          <div class="group-gap">
+            <div class="d-block">
+              <label class="word">Warehouse</label>
+              <div class="mb-3">
+                <select
+                  class="custom-select"
+                  (change)="changeWarehouse($event)"
+                  formControlName="warehouse"
+                >
+                  <option value="">Select Warehouse</option>
+                  <option
+                    *ngFor="let warehouse of Warehouse"
+                    [ngValue]="warehouse"
+                  >
+                    {{ warehouse }}
+                  </option>
+                </select>
+
+                <!-- Type Form-->
+                <div class="d-block my">
+                  <label class="word">Type</label>
+                  <div class="mb-3">
+                    <select
+                      class="custom-select"
+                      (change)="changeType($event)"
+                      formControlName="type"
+                    >
+                      <option value="">Select Type</option>
+                      <option *ngFor="let type of Type" [ngValue]="type">
+                        {{ type }}
+                      </option>
+                    </select>
+                    <!-- error block -->
+                    <div
+                      class="alert alert-danger"
+                      *ngIf="isSubmitted && Warehouse.invalid"
+                    >
+                      <sup>*</sup>Please enter your warehouse
+                    </div>
+
+                    <div
+                      class="alert alert-danger"
+                      *ngIf="isSubmitted && Type.invalid"
+                    >
+                      <sup>*</sup>Please enter your Type
+                    </div>
+                   <!--CheckBox Zero Balance-->
+                    <mat-checkbox class="example-margin"
+                      >Show Zero Balance</mat-checkbox
+                    >
+                  </div>
+                </div>
+              </div>
+
+            
+              <h4 class="word1">Product Classification</h4>
+
+              <mat-radio-group class="radio" aria-label="Select an option">
+                <mat-radio-button value="1">All Product</mat-radio-button>
+                <mat-radio-button class="button" value="2"
+                  >Specific Product</mat-radio-button
+                >
+              </mat-radio-group>
+
+              <!-- Search Button -->
+              <!--Click on Search to Routing Deatils Product-->
+              <button
+                routerLink="/details"
+                routerLinkActive="active"
+                type="search"
+                class="btn btn-danger"
+              >
+                Search
+              </button>
+
+              
+            </div>
+          </div>
+          <!-- Form ends -->
+          
+           <!--Second Title-->
+          <mat-icon class="icon2">description</mat-icon>
+          <a class="info">Product Details</a>
+          <hr class="line" />
+
+          <mat-toolbar-row class="content">
+            <span class="bar">Product</span>
+
+            <span class="bar1">On-Hand</span>
+            <span class="bar1">Type</span>
+          </mat-toolbar-row>
+
+          <input
+            class="search1"
+            type="text"
+            ng-model="searchBox"
+            align="right"
+          />
+          <input
+            class="search1"
+            type="text"
+            ng-model="searchBox"
+            align="right"
+          />
+          <input
+            class="search1"
+            type="text"
+            ng-model="searchBox"
+            align="right"
+          />
+
+          <!--Grid List-->
+          <mat-grid-list cols="1" rowHeight="125px">
+            <mat-grid-tile>
+              <img class="img" src="assets/img/final.jpeg" align="center" />
+            </mat-grid-tile>
+          </mat-grid-list>
+          <h4 class="word3">Select Warehouse and Product</h4>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

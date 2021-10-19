@@ -1,0 +1,29 @@
+<div class="navbar is-light">
+  <div class="navbar-brand">
+    <mat-card class="custom">
+      <div align="right">
+        <!--Logo DorCare-->
+        <img src="assets/img/Dotcare-logo.png" height="25" align="left" />
+        <!--SearchInput -->
+        <input
+          class="search"
+          type="text"
+          ng-model="searchBox"
+          align="left"
+          placeholder="search for patient(Name,Code,phonenumber)"
+        />
+        <!--Language Dropdown-->
+        <select class="dropdown">
+          <option value="1">English</option>
+          <option value="2">Arabic</option>
+          <option value="3">Spanish</option>
+        </select>
+        <!--Name Form-->
+        <img src="assets/img/user-logo.png" height="27" />
+        <a class="Text">Mark Tawfik Saber</a>
+      </div>
+    </mat-card>
+  </div>
+</div>
+
+<app-toolbar></app-toolbar>

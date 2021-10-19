@@ -1,0 +1,30 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.navbar-item1 {
+  margin-left: 1250px;
+}
+.custom.mat-card {
+  padding-block: 0%;
+  margin-top: 0%;
+  background-color: aliceblue;
+}
+
+.dropdown {
+  margin-right: 5px;
+  border-radius: 5px;
+  height: 28px;
+  font-weight: 400;
+  color: rgb(0, 174, 255);
+  border-color: aliceblue;
+}
+
+.search {
+  margin-right: 600px;
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 500px;
+  background-color: rgb(221, 253, 253);
+  border-color: aliceblue;
+}
